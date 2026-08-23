@@ -1,39 +1,70 @@
-# TJ's Nuxt Starter
+# myMind
 
-![Nuxt Starter](app/assets/images/nuxt-starter.png)
+`myMind` is a web-based mind mapping application built for fast personal thought capture, visual organization, and idea development.
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+The product is being designed as a personal-first tool with cloud-backed data, a SimpleMind-inspired editing experience, and room to expand later into collaborative and cross-platform clients.
 
-[Install Bun](https://bun.com/)
+## Stack
+
+- Nuxt 4
+- Vue 3
+- TypeScript
+- Nuxt UI
+- Pinia
+- Bun
+
+## Project Direction
+
+The current focus is a web-first MVP with:
+
+- workspace-based organization
+- mind maps as the primary content type
+- rich nodes with notes, links, checklists, and attachments
+- quick thought capture for ideas that are not yet organized
+- keyboard-friendly editing and fast interaction
 
 ## Setup
 
-Make sure to install dependencies:
+Install dependencies:
 
 ```bash
 bun install
 ```
 
-## Development Server
+## Development
 
-Start the development server on `http://localhost:3000`:
+Start the local development server:
 
 ```bash
 bun run dev
 ```
 
-## Production
+The app runs at `http://localhost:3000`.
 
-Build the application for production:
+## Build
+
+Create a production build:
 
 ```bash
 bun run build
 ```
 
-Locally preview production build:
+Preview the production build locally:
 
 ```bash
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Static Generation
+
+Generate a static version of the app if needed:
+
+```bash
+bun run generate
+```
+
+## Repo Notes
+
+- Product and planning docs live in `specs/`
+- This repo currently contains the Nuxt frontend application
+- Backend and collaboration architecture are being planned separately as part of the product spec
