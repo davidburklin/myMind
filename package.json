@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-starter",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/devtools": "3.1.1",
+    "@nuxt/eslint": "1.12.1",
+    "@nuxt/fonts": "0.12.1",
+    "@nuxt/icon": "2.1.0",
+    "@nuxt/image": "2.0.0",
+    "@nuxt/ui": "4.2.1",
+    "@pinia/nuxt": "0.11.3",
+    "eslint": "^9.0.0",
+    "nuxt": "^4.2.2",
+    "pinia": "^3.0.4",
+    "typescript": "^5.6.3",
+    "vite": ">=6.0",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.3"
+  }
+}
